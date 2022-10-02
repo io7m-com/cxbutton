@@ -1,0 +1,311 @@
+p.shields a {
+  text-decoration: none;
+}
+
+#header {
+  font-family: monospace;
+}
+
+.cxbuttonOcean, .cxbuttonForest, .cxbuttonDesert, .cxbuttonRoad
+{
+  font-family: monospace;
+  font-weight: bold;
+  height: 2em;
+  text-decoration: none;
+  width: 8em;
+}
+
+.cxbuttonOcean
+{
+  text-align:     center;
+  vertical-align: middle;
+  display:        table-cell;
+  padding-left:   1.5em;
+  padding-right:  1.5em;
+  padding-top:    0.5em;
+  padding-bottom: 0.5em;
+
+  color:            #ffffff;
+  background-color: #1a4f73;
+  border-bottom:    2px solid #0d2739;
+  border-left:      2px solid #0d2739;
+  border-top:       2px solid #2877ad;
+  border-right:     2px solid #2877ad;
+  box-shadow:       0px 0px 0px 2px #000000;
+
+  user-select: none;
+}
+
+.cxbuttonOcean:hover
+{
+  color:            #ffffff;
+  background-color: #205f8a;
+  border-bottom:    2px solid #102f45;
+  border-left:      2px solid #102f45;
+  border-top:       2px solid #308fd0;
+  border-right:     2px solid #308fd0;
+  box-shadow:       0px 0px 0px 2px #000000;
+
+  user-select: none;
+}
+
+.cxbuttonOcean:active
+{
+  color:            #ffffff;
+  background-color: #153f5c;
+  border-bottom:    2px solid #205f8a;
+  border-left:      2px solid #205f8a;
+  border-top:       2px solid #0a1f2e;
+  border-right:     2px solid #0a1f2e;
+  box-shadow:       0px 0px 0px 2px #000000;
+
+  user-select: none;
+}
+
+.cxbuttonOcean a, a.cxbuttonOcean
+{
+  color: #ffffff;
+}
+
+.cxbuttonOcean_inactive
+{
+  text-align:     center;
+  vertical-align: middle;
+  display:        table-cell;
+  padding-left:   1.5em;
+  padding-right:  1.5em;
+  padding-top:    0.5em;
+  padding-bottom: 0.5em;
+
+  color:            #153f5c;
+  background-color: #1a4f73;
+  border-bottom:    2px solid #1a4f73;
+  border-left:      2px solid #1a4f73;
+  border-top:       2px solid #1a4f73;
+  border-right:     2px solid #1a4f73;
+  box-shadow:       0px 0px 0px 2px #000000;
+
+  user-select: none;
+}
+
+.cxbuttonForest
+{
+  text-align:     center;
+  vertical-align: middle;
+  display:        table-cell;
+  padding-left:   1.5em;
+  padding-right:  1.5em;
+  padding-top:    0.5em;
+  padding-bottom: 0.5em;
+
+  color:            #ffffff;
+  background-color: #1a734f;
+  border-bottom:    2px solid #0d3927;
+  border-left:      2px solid #0d3927;
+  border-top:       2px solid #28ad77;
+  border-right:     2px solid #28ad77;
+  box-shadow:       0px 0px 0px 2px #000000;
+
+  user-select: none;
+}
+
+.cxbuttonForest:hover
+{
+  color:            #ffffff;
+  background-color: #208a5f;
+  border-bottom:    2px solid #10452f;
+  border-left:      2px solid #10452f;
+  border-top:       2px solid #30d08f;
+  border-right:     2px solid #30d08f;
+  box-shadow:       0px 0px 0px 2px #000000;
+
+  user-select: none;
+}
+
+.cxbuttonForest:active
+{
+  color:            #ffffff;
+  background-color: #155c3f;
+  border-bottom:    2px solid #208a5f;
+  border-left:      2px solid #208a5f;
+  border-top:       2px solid #0a2e1f;
+  border-right:     2px solid #0a2e1f;
+  box-shadow:       0px 0px 0px 2px #000000;
+
+  user-select: none;
+}
+
+.cxbuttonForest a, a.cxbuttonForest
+{
+  color: #ffffff;
+}
+
+.cxbuttonForest_inactive
+{
+  text-align:     center;
+  vertical-align: middle;
+  display:        table-cell;
+  padding-left:   1.5em;
+  padding-right:  1.5em;
+  padding-top:    0.5em;
+  padding-bottom: 0.5em;
+
+  color:            #155c3f;
+  background-color: #1a734f;
+  border-bottom:    2px solid #1a734f;
+  border-left:      2px solid #1a734f;
+  border-top:       2px solid #1a734f;
+  border-right:     2px solid #1a734f;
+  box-shadow:       0px 0px 0px 2px #000000;
+
+  user-select: none;
+}
+
+.cxbuttonDesert
+{
+  text-align:     center;
+  vertical-align: middle;
+  display:        table-cell;
+  padding-left:   1.5em;
+  padding-right:  1.5em;
+  padding-top:    0.5em;
+  padding-bottom: 0.5em;
+
+  color:            #ffffff;
+  background-color: #734f1a;
+  border-bottom:    2px solid #39270d;
+  border-left:      2px solid #39270d;
+  border-top:       2px solid #ad7728;
+  border-right:     2px solid #ad7728;
+  box-shadow:       0px 0px 0px 2px #000000;
+
+  user-select: none;
+}
+
+.cxbuttonDesert:hover
+{
+  color:            #ffffff;
+  background-color: #8a5f20;
+  border-bottom:    2px solid #452f10;
+  border-left:      2px solid #452f10;
+  border-top:       2px solid #d08f30;
+  border-right:     2px solid #d08f30;
+  box-shadow:       0px 0px 0px 2px #000000;
+
+  user-select: none;
+}
+
+.cxbuttonDesert:active
+{
+  color:            #ffffff;
+  background-color: #5c3f15;
+  border-bottom:    2px solid #8a5f20;
+  border-left:      2px solid #8a5f20;
+  border-top:       2px solid #2e1f0a;
+  border-right:     2px solid #2e1f0a;
+  box-shadow:       0px 0px 0px 2px #000000;
+
+  user-select: none;
+}
+
+.cxbuttonDesert a, a.cxbuttonDesert
+{
+  color: #ffffff;
+}
+
+.cxbuttonDesert_inactive
+{
+  text-align:     center;
+  vertical-align: middle;
+  display:        table-cell;
+  padding-left:   1.5em;
+  padding-right:  1.5em;
+  padding-top:    0.5em;
+  padding-bottom: 0.5em;
+
+  color:            #5c3f15;
+  background-color: #734f1a;
+  border-bottom:    2px solid #734f1a;
+  border-left:      2px solid #734f1a;
+  border-top:       2px solid #734f1a;
+  border-right:     2px solid #734f1a;
+  box-shadow:       0px 0px 0px 2px #000000;
+
+  user-select: none;
+}
+
+
+
+.cxbuttonRoad
+{
+  text-align:     center;
+  vertical-align: middle;
+  display:        table-cell;
+  padding-left:   1.5em;
+  padding-right:  1.5em;
+  padding-top:    0.5em;
+  padding-bottom: 0.5em;
+
+  color:            #ffffff;
+  background-color: #7f7f7f;
+  border-bottom:    2px solid #3f3f3f;
+  border-left:      2px solid #3f3f3f;
+  border-top:       2px solid #bfbfbf;
+  border-right:     2px solid #bfbfbf;
+  box-shadow:       0px 0px 0px 2px #000000;
+
+  user-select: none;
+}
+
+.cxbuttonRoad:hover
+{
+  color:            #ffffff;
+  background-color: #999999;
+  border-bottom:    2px solid #4c4c4c;
+  border-left:      2px solid #4c4c4c;
+  border-top:       2px solid #e5e5e5;
+  border-right:     2px solid #e5e5e5;
+  box-shadow:       0px 0px 0px 2px #000000;
+
+  user-select: none;
+}
+
+.cxbuttonRoad:active
+{
+  color:            #ffffff;
+  background-color: #666666;
+  border-bottom:    2px solid #999999;
+  border-left:      2px solid #999999;
+  border-top:       2px solid #333333;
+  border-right:     2px solid #333333;
+  box-shadow:       0px 0px 0px 2px #000000;
+
+  user-select: none;
+}
+
+.cxbuttonRoad a, a.cxbuttonRoad
+{
+  color: #ffffff;
+}
+
+.cxbuttonRoad_inactive
+{
+  text-align:     center;
+  vertical-align: middle;
+  display:        table-cell;
+  padding-left:   1.5em;
+  padding-right:  1.5em;
+  padding-top:    0.5em;
+  padding-bottom: 0.5em;
+
+  color:            #666666;
+  background-color: #7f7f7f;
+  border-bottom:    2px solid #7f7f7f;
+  border-left:      2px solid #7f7f7f;
+  border-top:       2px solid #7f7f7f;
+  border-right:     2px solid #7f7f7f;
+  box-shadow:       0px 0px 0px 2px #000000;
+
+  user-select: none;
+}
+
