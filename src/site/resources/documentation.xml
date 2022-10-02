@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<div xmlns="http://www.w3.org/1999/xhtml">
+  <h3>User documentation</h3>
+  <p>
+    Use <tt>CxButtonCSS.create()</tt> to create a template, and then call <tt>CxButtonCSS.cssOf()</tt>
+    to generate CSS text for a given color scheme.
+  </p>
+</div>

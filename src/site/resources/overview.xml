@@ -1,0 +1,28 @@
+<div xmlns="http://www.w3.org/1999/xhtml">
+  <p class="shields">
+    <a href="https://github.com/io7m/cxbutton/actions?query=workflow%3Amain-openjdk_lts-linux">
+      <img src="https://img.shields.io/github/workflow/status/io7m/cxbutton/main-openjdk_lts-linux"
+           alt="Build status"/>
+    </a>
+    <a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.io7m.cxbutton%22">
+      <img src="https://img.shields.io/maven-central/v/com.io7m.cxbutton/com.io7m.cxbutton.svg?style=flat-square"
+           alt="Maven Central"/>
+    </a>
+    <a href="https://codecov.io/gh/io7m/cxbutton">
+      <img src="https://img.shields.io/codecov/c/github/io7m/cxbutton.svg?style=flat-square"
+           alt="Codecov"/>
+    </a>
+  </p>
+
+  <p>
+    The <tt>cxbutton</tt> package implements a Java template to generate embossed CSS buttons.
+  </p>
+
+  <p id="buttons">
+    <a href="#buttons" class="cxbuttonOcean">Ocean</a>
+    <a href="#buttons" class="cxbuttonDesert">Desert</a>
+    <a href="#buttons" class="cxbuttonForest">Forest</a>
+    <a href="#buttons" class="cxbuttonRoad">Road</a>
+  </p>
+
+</div>
