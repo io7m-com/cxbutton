@@ -28,5 +28,8 @@ module com.io7m.cxbutton.core
   requires com.io7m.dixmont.colors;
   requires freemarker;
 
+  opens com.io7m.cxbutton.core
+    to com.fasterxml.jackson.databind;
+
   exports com.io7m.cxbutton.core;
 }
