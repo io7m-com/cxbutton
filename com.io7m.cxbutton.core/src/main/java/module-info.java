@@ -23,13 +23,7 @@ module com.io7m.cxbutton.core
   requires static org.osgi.annotation.bundle;
   requires static org.osgi.annotation.versioning;
 
-  requires com.fasterxml.jackson.annotation;
-  requires com.fasterxml.jackson.databind;
-  requires com.io7m.dixmont.colors;
   requires freemarker;
-
-  opens com.io7m.cxbutton.core
-    to com.fasterxml.jackson.databind;
 
   exports com.io7m.cxbutton.core;
 }

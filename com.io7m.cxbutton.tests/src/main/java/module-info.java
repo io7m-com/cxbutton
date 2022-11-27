@@ -23,13 +23,7 @@ module com.io7m.cxbutton.tests
   requires static org.osgi.annotation.versioning;
   requires static org.osgi.annotation.bundle;
 
-  requires com.fasterxml.jackson.annotation;
-  requires com.fasterxml.jackson.databind;
-  requires com.io7m.dixmont.colors;
   requires org.junit.jupiter.api;
 
   exports com.io7m.cxbutton.tests;
-
-  opens com.io7m.cxbutton.tests
-    to com.fasterxml.jackson.databind;
 }

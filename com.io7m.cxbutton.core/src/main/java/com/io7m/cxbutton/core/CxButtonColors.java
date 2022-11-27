@@ -16,10 +16,6 @@
 
 package com.io7m.cxbutton.core;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-
 import java.util.Objects;
 
 /**
@@ -31,16 +27,10 @@ import java.util.Objects;
  * @param hover    The colors for the hover state
  */
 
-@JsonSerialize
-@JsonDeserialize
 public record CxButtonColors(
-  @JsonProperty(value = "Enabled", required = true)
   CxButtonStateColors enabled,
-  @JsonProperty(value = "Disabled", required = true)
   CxButtonStateColors disabled,
-  @JsonProperty(value = "Pressed", required = true)
   CxButtonStateColors pressed,
-  @JsonProperty(value = "Hover", required = true)
   CxButtonStateColors hover)
 {
   /**

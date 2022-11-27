@@ -18,7 +18,7 @@
 package com.io7m.cxbutton.tests;
 
 import com.io7m.cxbutton.core.CxButtonCSS;
-import com.io7m.dixmont.colors.DmColor;
+import com.io7m.cxbutton.core.CxColor;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -73,36 +73,36 @@ public final class CSSButtonSample
            Files.newBufferedWriter(cssOut1, TRUNCATE_EXISTING, CREATE)) {
       final var cssOcean =
         CxButtonCSS.colorsForScheme(
-          new DmColor(1.0, 1.0, 1.0),
-          new DmColor(0.0, 0.0, 0.0),
-          new DmColor(0.105, 0.313, 0.454),
+          new CxColor(1.0, 1.0, 1.0),
+          new CxColor(0.0, 0.0, 0.0),
+          new CxColor(0.105, 0.313, 0.454),
           0.2,
           0.2,
           0.5
         );
       final var cssForest =
         CxButtonCSS.colorsForScheme(
-          new DmColor(1.0, 1.0, 1.0),
-          new DmColor(0.0, 0.0, 0.0),
-          new DmColor(0.105, 0.454, 0.313),
+          new CxColor(1.0, 1.0, 1.0),
+          new CxColor(0.0, 0.0, 0.0),
+          new CxColor(0.105, 0.454, 0.313),
           0.2,
           0.2,
           0.5
         );
       final var cssDesert =
         CxButtonCSS.colorsForScheme(
-          new DmColor(1.0, 1.0, 1.0),
-          new DmColor(0.0, 0.0, 0.0),
-          new DmColor(0.454,  0.313, 0.105),
+          new CxColor(1.0, 1.0, 1.0),
+          new CxColor(0.0, 0.0, 0.0),
+          new CxColor(0.454,  0.313, 0.105),
           0.2,
           0.2,
           0.5
         );
       final var cssRoad =
         CxButtonCSS.colorsForScheme(
-          new DmColor(1.0, 1.0, 1.0),
-          new DmColor(0.0, 0.0, 0.0),
-          new DmColor(0.5,  0.5, 0.5),
+          new CxColor(1.0, 1.0, 1.0),
+          new CxColor(0.0, 0.0, 0.0),
+          new CxColor(0.5,  0.5, 0.5),
           0.2,
           0.2,
           0.5

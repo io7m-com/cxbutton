@@ -17,11 +17,6 @@
 
 package com.io7m.cxbutton.core;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.io7m.dixmont.colors.DmColor;
-
 import java.util.Objects;
 
 /**
@@ -36,23 +31,14 @@ import java.util.Objects;
  * @param embossWColor The W emboss color
  */
 
-@JsonSerialize
-@JsonDeserialize
 public record CxButtonStateColors(
-  @JsonProperty(value = "TextColor", required = true)
-  DmColor textColor,
-  @JsonProperty(value = "BodyColor", required = true)
-  DmColor bodyColor,
-  @JsonProperty(value = "BorderColor", required = true)
-  DmColor borderColor,
-  @JsonProperty(value = "EmbossEColor", required = true)
-  DmColor embossEColor,
-  @JsonProperty(value = "EmbossNColor", required = true)
-  DmColor embossNColor,
-  @JsonProperty(value = "EmbossSColor", required = true)
-  DmColor embossSColor,
-  @JsonProperty(value = "EmbossWColor", required = true)
-  DmColor embossWColor)
+  CxColor textColor,
+  CxColor bodyColor,
+  CxColor borderColor,
+  CxColor embossEColor,
+  CxColor embossNColor,
+  CxColor embossSColor,
+  CxColor embossWColor)
 {
   /**
    * The colors used for a button state.

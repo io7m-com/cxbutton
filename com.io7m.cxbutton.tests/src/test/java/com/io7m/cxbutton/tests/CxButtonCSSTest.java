@@ -18,7 +18,7 @@
 package com.io7m.cxbutton.tests;
 
 import com.io7m.cxbutton.core.CxButtonCSS;
-import com.io7m.dixmont.colors.DmColor;
+import com.io7m.cxbutton.core.CxColor;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -108,9 +108,9 @@ public final class CxButtonCSSTest
         Optional.of("Ocean"),
         true,
         CxButtonCSS.colorsForScheme(
-          new DmColor(1.0, 1.0, 1.0),
-          new DmColor(0.0, 0.0, 0.0),
-          new DmColor(0.105, 0.313, 0.454),
+          new CxColor(1.0, 1.0, 1.0),
+          new CxColor(0.0, 0.0, 0.0),
+          new CxColor(0.105, 0.313, 0.454),
           0.2,
           0.2,
           0.5
