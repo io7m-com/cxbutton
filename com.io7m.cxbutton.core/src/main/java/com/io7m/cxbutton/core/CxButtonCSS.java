@@ -18,7 +18,6 @@
 package com.io7m.cxbutton.core;
 
 import com.io7m.cxbutton.core.internal.CxButtonTemplateLoader;
-import com.io7m.dixmont.colors.DmColor;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
@@ -105,54 +104,54 @@ public final class CxButtonCSS
   public static CxButtonColors defaultColors()
   {
     final var buttonEnabledTextColor =
-      new DmColor(0.0, 0.0, 0.0);
+      new CxColor(0.0, 0.0, 0.0);
     final var buttonEnabledBorderColor =
-      new DmColor(0.0, 0.0, 0.0);
+      new CxColor(0.0, 0.0, 0.0);
     final var buttonEnabledBodyColor =
-      new DmColor(0.86, 0.86, 0.86);
+      new CxColor(0.86, 0.86, 0.86);
     final var buttonEnabledEmbossNColor =
-      new DmColor(1.0, 1.0, 1.0);
+      new CxColor(1.0, 1.0, 1.0);
     final var buttonEnabledEmbossEColor =
-      new DmColor(1.0, 1.0, 1.0);
+      new CxColor(1.0, 1.0, 1.0);
     final var buttonEnabledEmbossSColor =
-      new DmColor(0.66, 0.66, 0.66);
+      new CxColor(0.66, 0.66, 0.66);
     final var buttonEnabledEmbossWColor =
-      new DmColor(0.66, 0.66, 0.66);
+      new CxColor(0.66, 0.66, 0.66);
 
     final var buttonHoverTextColor =
-      new DmColor(0.0, 0.0, 0.0);
+      new CxColor(0.0, 0.0, 0.0);
     final var buttonHoverBorderColor =
-      new DmColor(0.0, 0.0, 0.0);
+      new CxColor(0.0, 0.0, 0.0);
     final var buttonHoverBodyColor =
-      new DmColor(0.93, 0.93, 0.93);
+      new CxColor(0.93, 0.93, 0.93);
     final var buttonHoverEmbossNColor =
-      new DmColor(1.0, 1.0, 1.0);
+      new CxColor(1.0, 1.0, 1.0);
     final var buttonHoverEmbossEColor =
-      new DmColor(1.0, 1.0, 1.0);
+      new CxColor(1.0, 1.0, 1.0);
     final var buttonHoverEmbossSColor =
-      new DmColor(0.66, 0.66, 0.66);
+      new CxColor(0.66, 0.66, 0.66);
     final var buttonHoverEmbossWColor =
-      new DmColor(0.66, 0.66, 0.66);
+      new CxColor(0.66, 0.66, 0.66);
 
     final var buttonPressedTextColor =
-      new DmColor(0.0, 0.0, 0.0);
+      new CxColor(0.0, 0.0, 0.0);
     final var buttonPressedBorderColor =
-      new DmColor(0.0, 0.0, 0.0);
+      new CxColor(0.0, 0.0, 0.0);
     final var buttonPressedBodyColor =
-      new DmColor(0.86, 0.86, 0.86);
+      new CxColor(0.86, 0.86, 0.86);
     final var buttonPressedEmbossNColor =
-      new DmColor(0.66, 0.66, 0.66);
+      new CxColor(0.66, 0.66, 0.66);
     final var buttonPressedEmbossEColor =
-      new DmColor(0.66, 0.66, 0.66);
+      new CxColor(0.66, 0.66, 0.66);
     final var buttonPressedEmbossSColor =
-      new DmColor(0.8, 0.8, 0.8);
+      new CxColor(0.8, 0.8, 0.8);
     final var buttonPressedEmbossWColor =
-      new DmColor(0.8, 0.8, 0.8);
+      new CxColor(0.8, 0.8, 0.8);
 
     final var buttonDisabledBorderColor =
-      new DmColor(0.0, 0.0, 0.0);
+      new CxColor(0.0, 0.0, 0.0);
     final var buttonDisabledBodyColor =
-      new DmColor(0.86, 0.86, 0.86);
+      new CxColor(0.86, 0.86, 0.86);
     final var buttonDisabledTextColor =
       buttonDisabledBodyColor.darker(0.2);
 
@@ -210,9 +209,9 @@ public final class CxButtonCSS
    */
 
   public static CxButtonColors colorsForScheme(
-    final DmColor textColor,
-    final DmColor borderColor,
-    final DmColor backgroundColor,
+    final CxColor textColor,
+    final CxColor borderColor,
+    final CxColor backgroundColor,
     final double pressFactor,
     final double hoverFactor,
     final double embossFactor)
