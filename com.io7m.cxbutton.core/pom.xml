@@ -9,7 +9,7 @@
   <parent>
     <artifactId>com.io7m.cxbutton</artifactId>
     <groupId>com.io7m.cxbutton</groupId>
-    <version>0.0.5</version>
+    <version>0.0.6-SNAPSHOT</version>
   </parent>
   <artifactId>com.io7m.cxbutton.core</artifactId>
 
