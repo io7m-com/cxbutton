@@ -24,9 +24,14 @@
   </modules>
 
   <properties>
-    <com.io7m.xstructural.version>1.8.0</com.io7m.xstructural.version>
+    <!-- Configuration. -->
     <io7m.api.previousVersion>0.0.6-SNAPSHOT</io7m.api.previousVersion>
     <io7m.java.targetJavaVersion>21</io7m.java.targetJavaVersion>
+
+    <!-- io7m dependencies. -->
+    <com.io7m.xstructural.version>1.8.0</com.io7m.xstructural.version>
+
+    <!-- Third-party dependencies. -->
     <junit.version>5.10.2</junit.version>
     <logback.version>1.5.6</logback.version>
   </properties>
@@ -39,9 +44,9 @@
   </licenses>
 
   <scm>
-    <url>https://github.com/io7m/cxbutton</url>
-    <connection>scm:git:https://github.com/io7m/cxbutton</connection>
-    <developerConnection>scm:git:https://github.com/io7m/cxbutton</developerConnection>
+    <url>https://www.github.com/io7m-com/cxbutton</url>
+    <connection>scm:git:https://www.github.com/io7m-com/cxbutton</connection>
+    <developerConnection>scm:git:https://www.github.com/io7m-com/cxbutton</developerConnection>
   </scm>
 
   <developers>
@@ -54,7 +59,7 @@
   </developers>
 
   <issueManagement>
-    <url>https://www.github.com/io7m/cxbutton/issues</url>
+    <url>https://www.github.com/io7m-com/cxbutton/issues</url>
     <system>GitHub Issues</system>
   </issueManagement>
 
@@ -76,7 +81,7 @@
 
   <ciManagement>
     <system>GitHub Actions</system>
-    <url>https://github.com/cxbutton/actions</url>
+    <url>https://www.github.com/io7m-com/cxbutton/actions</url>
   </ciManagement>
 
   <prerequisites>
