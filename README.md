@@ -14,3 +14,47 @@ cxbutton
 | OpenJDK (Temurin) LTS | Linux | [![Build (OpenJDK (Temurin) LTS, Linux)](https://img.shields.io/github/actions/workflow/status/io7m-com/cxbutton/main.linux.temurin.lts.yml)](https://www.github.com/io7m-com/cxbutton/actions?query=workflow%3Amain.linux.temurin.lts)|
 | OpenJDK (Temurin) Current | Windows | [![Build (OpenJDK (Temurin) Current, Windows)](https://img.shields.io/github/actions/workflow/status/io7m-com/cxbutton/main.windows.temurin.current.yml)](https://www.github.com/io7m-com/cxbutton/actions?query=workflow%3Amain.windows.temurin.current)|
 | OpenJDK (Temurin) LTS | Windows | [![Build (OpenJDK (Temurin) LTS, Windows)](https://img.shields.io/github/actions/workflow/status/io7m-com/cxbutton/main.windows.temurin.lts.yml)](https://www.github.com/io7m-com/cxbutton/actions?query=workflow%3Amain.windows.temurin.lts)|
+
+## cxbutton
+
+Embossed CSS buttons.
+
+### Features
+
+* Templated, customizable CSS buttons.
+* [OSGi](https://www.osgi.org/) ready.
+* [JPMS](https://en.wikipedia.org/wiki/Java_Platform_Module_System) ready.
+* ISC license.
+* High-coverage automated test suite.
+
+### Usage
+
+Use the `CxButtonCSS` class to generate CSS text.
+
+```
+final CxButtonCSS css =
+  CxButtonCSS.create();
+
+final String text =
+  css.cssOf(Optional.empty(), false, CxButtonCSS.defaultColors());
+```
+
+It's possible to specify custom colors, and the package can automatically
+derive the correct color variations for embossing:
+
+```
+final String text =
+  css.cssOf(
+    Optional.of("Ocean"),
+    true,
+    CxButtonCSS.colorsForScheme(
+      new CxColor(1.0, 1.0, 1.0),
+      new CxColor(0.0, 0.0, 0.0),
+      new CxColor(0.105, 0.313, 0.454),
+      0.2,
+      0.2,
+      0.5
+    )
+  );
+```
+
