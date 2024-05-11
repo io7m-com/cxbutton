@@ -9,17 +9,18 @@
   <parent>
     <artifactId>com.io7m.cxbutton</artifactId>
     <groupId>com.io7m.cxbutton</groupId>
-    <version>0.0.5</version>
+    <version>1.0.0</version>
   </parent>
   <artifactId>com.io7m.cxbutton.tests</artifactId>
 
   <packaging>jar</packaging>
   <name>com.io7m.cxbutton.tests</name>
   <description>CSS xbutton (Test suite)</description>
-  <url>https://www.github.com/io7m/cxbutton</url>
+  <url>https://www.io7m.com/software/cxbutton</url>
 
   <properties>
     <mdep.analyze.skip>true</mdep.analyze.skip>
+    <checkstyle.skip>true</checkstyle.skip>
   </properties>
 
   <dependencies>

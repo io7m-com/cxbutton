@@ -9,14 +9,14 @@
   <parent>
     <artifactId>com.io7m.cxbutton</artifactId>
     <groupId>com.io7m.cxbutton</groupId>
-    <version>0.0.5</version>
+    <version>1.0.0</version>
   </parent>
   <artifactId>com.io7m.cxbutton.core</artifactId>
 
   <packaging>jar</packaging>
   <name>com.io7m.cxbutton.core</name>
   <description>CSS xbutton (Core)</description>
-  <url>https://www.github.com/io7m/cxbutton</url>
+  <url>https://www.io7m.com/software/cxbutton</url>
 
   <dependencies>
     <dependency>
